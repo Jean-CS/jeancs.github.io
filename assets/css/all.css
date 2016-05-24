@@ -1,0 +1,206 @@
+.hero {
+  height: 520px;
+  background-image: url('../img/city-sky.jpg');
+  background-size: cover;
+  opacity: .9;
+}
+
+#navBar li{
+  color: #212121;
+}
+
+.button-collapse i {
+  color: #000;
+}
+
+#about {
+  padding-top: 350px;
+  text-align: center;
+}
+
+#about .container .intro {
+  background: #fff;
+  padding: 40px 40px 10px 30px;
+}
+
+#about .profile-pic {
+  display: inline-block;
+  margin-top: -100px;
+}
+
+#about .profile-pic img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-top: -70px;
+  height: 150px;
+  width: 150px;
+}
+
+#about .intro-content {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+
+#about .intro-content h2 {
+  font-weight: bold;
+  margin: 0px;
+  font-size: 35px;
+  line-height: 52px;
+  opacity: .9;
+}
+
+#about .intro-content span {
+  font-size: 18px;
+  line-height: 34px;
+  color: #8a8a8b;
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  opacity: .8;
+  text-align: justify;
+}
+
+#about .blurb {
+  padding: 10px 20px;
+}
+
+#about .blurb p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#about .info {
+  padding: 10px 20px;
+  text-align: left;
+  line-height: 30px;
+}
+
+@media (max-width: 320px) {
+  #about .info {
+    padding: 0px;
+  }
+  #about .blurb {
+    padding: 0px;
+  }
+}
+
+#about .info ul span {
+  border-bottom: 1px solid #ccc;
+}
+
+#about .info ul .info-name {
+  padding: 0;
+  font-weight: 600;
+  opacity: .8;
+  text-transform: uppercase;
+}
+
+#about .info ul .info-value {
+  padding-left: 5px;
+  font-weight: 400;
+  opacity: .8;
+}
+
+#about .social-media {
+  background-color: #e74c3c;
+  height: 80px;
+}
+
+#about .social-media li {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#about .social-media i {
+  color: #fff;
+  opacity: .9;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  line-height: 42px;
+  opacity: .7;
+  font-weight: 500;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+.section-title h2 i {
+  margin-right: 30px;
+}
+
+#skills .skill {
+  padding: 60px 30px 40px;
+  color: #d14848;
+  text-align: center;
+}
+
+#skills .skill-bar {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#skills .skill-bar span {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px;
+}
+
+#projects .card-image img {
+  max-height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#contact .contact-form {
+  padding: 10px 30px;
+}
+
+#contact .btn {
+  background-color: #e74c3c;
+  margin-top: 10px;
+}
+#contact .contact-map {
+  padding: 20px;
+}
+#contact .test-class-right {
+  text-align: left;
+  line-height: 30px;
+  padding: 0px;
+}
+
+@media (max-width: 320px) {
+  #contact .test-class-right {
+    padding: 0px;
+  }
+}
+
+#contact .contact-map span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#map {
+  width: 100%;
+  height: 265px;
+  padding-left: 10px;
+}
+
+#contact {
+  margin-bottom: 40px;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center !important;
+}

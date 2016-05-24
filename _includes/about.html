@@ -1,0 +1,43 @@
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="intro z-depth-1 col m12">
+        <div class="col m12 s12">
+          <div class="profile-pic">
+            <img src="assets/img/me.jpg" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="intro-content col m10 s12">
+            <h2>{{ site.data.settings.title }}</h2>
+            <span>{{ site.data.settings.description }}</span>
+          </div>
+          <div class="row about-contact">
+            <div class="blurb col s12 m12 l6">
+              <p>{{ site.data.settings.blurb }}</p>
+              </div>
+              <div class="info col s12 m12 l6">
+                <ul>
+                  {% for item in site.data.settings.info %}
+                  <li>
+                    <span class="info-name col s4 m3">{{ item.name }}</span>
+                    <span class="info-value col s8">{{ item.value }}</span>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-media z-depth-1 col s12 m12">
+          <div class="row">
+            <ul>
+              {% for link in site.data.settings.social %}
+              <li class="col s3 m3 l3"><a target="_blank" href="{{ link.link }}"><i class="fa fa-{{ link.icon }} fa-3x" aria-hidden="true"></i></a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

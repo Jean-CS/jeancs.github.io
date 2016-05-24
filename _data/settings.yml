@@ -1,0 +1,66 @@
+#-------------------------------
+# General Site Settings
+
+title: Jean C. Santos
+description: Web / Software Developer
+email: jeansantosc@gmail.com
+
+menu:
+- {name: About, url: '#about'}
+- {name: Skills, url: '#skills'}
+- {name: Projects, url: '#projects'}
+- {name: Contact, url: '#contact'}
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Personal Portfolio of Web and Software Developer Jean C. Santos'
+  rel-author: 'https://www.linkedin.com/in/jean-santos-70b1208a'
+  rel-publisher: 'https://www.linkedin.com/in/jean-santos-70b1208a'
+
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+blurb: I’m an aspiring developer from Brazil. Currently studying Systems Analysis and Development at Instituto Federal do Paraná. And at the same time developing my own web projects following Free Code Camp’s curriculum. Before graduating I achieve to acquire professional experience in the industry by doing freelance work and from internships.
+
+info:
+- {name: 'age', value: '20'}
+- {name: 'occupation', value: 'Student'}
+- {name: 'phone', value: '+55 43 8478-2341'}
+- {name: 'email', value: 'jeansantosc@gmail.com'}
+- {name: 'freelance', value: 'Available'}
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/Jean_CSx'}
+- {icon: 'facebook', link: 'https://www.facebook.com/jean.santos.7758'}
+- {icon: 'linkedin', link: 'https://br.linkedin.com/in/jean-santos-70b1208a'}
+- {icon: 'github', link: 'https://github.com/Jean-CS'}
+
+#-------------------------------
+# Skill Section
+
+skills:
+- {name: 'HTML'}
+- {name: 'CSS'}
+- {name: 'jQuery'}
+- {name: 'Javascript'}
+- {name: 'Java'}
+- {name: 'C'}
+- {name: 'MySQL'}
+- {name: 'Git'}
+- {name: 'Jekyll'}
+
+#-------------------------------
+# Contact Section
+
+contact:
+- {name: 'email', value: 'jeansantosc@gmail.com'}
+- {name: 'phone', value: '+55 43 8478-2341'}
+- {name: 'whatsapp', value: '+55 43 9801-3669'}
+- {name: 'skype', value: 'jean.doe37'}
+- {name: 'location', value: 'Londrina, Brazil'}
