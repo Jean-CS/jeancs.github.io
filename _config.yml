@@ -3,4 +3,6 @@
 markdown: kramdown
 permalink: pretty
 
+future: true
+
 port: 8000
