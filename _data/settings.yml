@@ -49,11 +49,11 @@ skills:
 - {name: 'CSS'}
 - {name: 'jQuery'}
 - {name: 'Javascript'}
+- {name: 'PHP'}
 - {name: 'Java'}
 - {name: 'C'}
 - {name: 'MySQL'}
 - {name: 'Git'}
-- {name: 'Jekyll'}
 
 #-------------------------------
 # Contact Section
