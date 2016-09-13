@@ -26,12 +26,12 @@ seo:
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: I’m an aspiring developer from Brazil. Currently studying Systems Analysis and Development at Instituto Federal do Paraná. And at the same time developing my own web projects following Free Code Camp’s curriculum. Before graduating I achieve to acquire professional experience in the industry by doing freelance work and from internships.
+blurb: I’m an aspiring developer currently studying a branch of Computer Science in University. And at the same time developing my own web projects in PHP and experimenting with Nodejs and Java.
 
 info:
 - {name: 'age', value: '20'}
 - {name: 'occupation', value: 'Student'}
-- {name: 'phone', value: '+55 43 8478-2341'}
+- {name: 'phone', value: '+55 43 9801-3669'}
 - {name: 'email', value: 'jeansantosc@gmail.com'}
 - {name: 'freelance', value: 'Available'}
 
@@ -60,7 +60,6 @@ skills:
 
 contact:
 - {name: 'email', value: 'jeansantosc@gmail.com'}
-- {name: 'phone', value: '+55 43 8478-2341'}
+- {name: 'phone', value: '+55 43 9801-3669'}
 - {name: 'whatsapp', value: '+55 43 9801-3669'}
 - {name: 'skype', value: 'jean.doe37'}
-- {name: 'location', value: 'Londrina, Brazil'}
